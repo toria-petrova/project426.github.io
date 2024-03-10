@@ -1,0 +1,268 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: white;
+    background-color: #171b2f;
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+.header2 {
+    background-image: url("photos/Picture1.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 220px;
+    text-align: center;
+
+}
+
+.navig {
+    background-color: #121524;
+    height: 220px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.navig span {
+    font-size: 30px;
+}
+
+#navigation {
+    padding-top: 70px;
+
+}
+
+#navigation h1 {
+    padding-bottom: 20px;
+
+}
+
+a {
+    color: rgb(255, 255, 255);
+    margin: 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 18px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.139);
+}
+
+h1 {
+    color: #FF66B3;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+hr {
+
+    width: 100%;
+    border-top: 2.5px solid #FF66B3;
+    box-shadow: 0.2px 0.3px 2px rgb(39, 0, 0);
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-container div {
+    width: 30%;
+    height: 40%;
+}
+
+.image-container img {
+    width: 100%;
+    height: 300px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.491);
+}
+
+.image-container1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-container1 div {
+    width: 25%;
+    height: auto;
+}
+
+.image-container1 img {
+    width: 90%;
+    height: 250px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.491);
+}
+
+.main1 {
+    padding-top: 5%;
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.main1 div {
+    width: 45%;
+    height: auto;
+}
+
+.main1 img {
+    width: 100%;
+    height: 490px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.491);
+    border-radius: 3%;
+}
+
+.main {
+    padding-top: 100px;
+    width: 70%;
+    margin: auto;
+}
+
+.main p {
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.mainphoto {
+    margin-top: 100px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.491);
+}
+
+.under {
+    padding-top: 5%;
+    text-align: left;
+    width: 70%;
+    margin: auto;
+}
+
+.under1 {
+
+   
+    width: 90%;
+    margin: auto;
+    box-shadow: 5px 5px 20px #00000089;
+    height: 500px;
+   margin-bottom: 5%;
+    border-radius: 3%;
+
+}
+
+.under1 h2 {
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+.under1 p {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 10px;
+    font-size: 17px;
+
+}
+
+.under2 {
+    padding: 2%;
+    margin: auto;
+    width: 90%;
+}
+.under4 p{
+    text-align: center;
+}
+.under4 h2{
+    text-align: center;
+}
+.under4{
+    width: 90%;
+    margin: auto;
+    box-shadow: 5px 5px 20px #00000089;
+    height: 420px;
+    margin-bottom: 5%;
+    border-radius: 3%;
+
+}
+.under5{
+    width: 80%;
+    margin: auto;
+}
+
+
+.nav1 {
+    float: left;
+    display: block;
+}
+
+.nav2 {
+    float: right;
+    display: block;
+}
+
+.nav1 a {
+    color: white;
+    font-size: 13px;
+}
+
+.nav1 a:hover {
+    color: #FF66B3;
+}
+
+.nav2 a {
+    color: white;
+    font-size: 13px;
+}
+
+.nav2 a:hover {
+    color: #FF66B3;
+}
+
+.button {
+    clear: both;
+    width: 170px;
+    text-align: center;
+    font-size: 30px;
+    height: 50px;
+    background-color: #FF66B3;
+    margin: auto;
+    border-radius: 3%;
+    margin-top: 100px;
+}
+
+.sep {
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-bottom: 3%;
+    width: 10%;
+}
+
+.tit {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.head{margin: 5%;}
+.footer{
+    background-color: #121524;
+    height: 25px;
+    margin-top: 10%;
+    text-align: center;
+}
